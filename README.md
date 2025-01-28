@@ -3,7 +3,8 @@
 ![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/three.jpg?raw=true)
 ![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/four.jpg?raw=true)
 ![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/five.jpg?raw=true)
-![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/six.jpg?raw=true https://github.com/mubashirkidua/e-commerce-website-1/blob/master/seven.jpg?raw=true)
+![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/six.jpg?raw=true)
+![image alt](https://github.com/mubashirkidua/e-commerce-website-1/blob/master/seven.jpg?raw=true)
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
