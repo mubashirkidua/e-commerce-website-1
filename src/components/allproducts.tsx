@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { products } from "./data/details2";
 import { ProductDetail } from "./data/details2";
+// import { Images } from "lucide-react";
 
 interface ProductCardProps {
   product: ProductDetail;

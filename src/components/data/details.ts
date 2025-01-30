@@ -1,13 +1,13 @@
 "use client";
 
 import { StaticImageData } from "next/image";
-import best1 from "../../../../public/Best/best1.png";
-import best2 from "../../../../public/Best/best2.png";
-import best3 from "../../../../public/Best/best3.png";
-import G1 from "../../../../public/assests/G1.png";
-import G2 from "../../../../public/assests/G2.png";
-import G3 from "../../../../public/assests/G3.png";
-import G4 from "../../../../public/assests/G4.png";
+import best1 from "../../../public/images/best1.png";
+import best2 from "../../../public/images/best2.png";
+import best3 from "../../../public/images/best3.png";
+import G1 from "../../../public/images/G1.png";
+import G2 from "../../../public/images/G2.png";
+import G3 from "../../../public/images/G3.png";
+import G4 from "../../../public/images/G4.png";
 
 export interface ProductDetail {
   id: string | number; // Flexible ID type

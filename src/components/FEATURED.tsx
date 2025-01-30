@@ -10,7 +10,7 @@ export default function Featured() {
       </div>
       <div
         style={{
-          backgroundImage: "url('/assests/featured.png')",
+          backgroundImage: "url('/images/featured.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

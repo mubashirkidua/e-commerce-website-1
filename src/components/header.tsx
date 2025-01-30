@@ -14,7 +14,7 @@ export default function header() {
 
     <div className="bg-[#F5F5F5] flex justify-between items-center px-6 py-2 md:text-[11px] sm:text-[9px] text-[8px] font-medium text-gray-500">
       <Image
-       src= "/assests/logo.png"
+       src= "/images/logo.png"
         alt={''} width={24} height={24}
         className="w-[24px] h-[24px]"/>
       
@@ -31,7 +31,7 @@ export default function header() {
       {/* Left section (Logo) */}
       <div className="flex items-center">
         <Image
-          src="/assests/nike.png"
+          src="/images/nike.png"
           alt="Nike Logo"
           className="md:w-[78px] sm:w-[60px] w-[30px]
           "

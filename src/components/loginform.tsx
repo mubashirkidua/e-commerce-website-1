@@ -11,7 +11,7 @@ export default function LoginForm() {
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="w-full max-w-md space-y-8 px-4">
         <div className="flex flex-col items-center">
-          <Image src="/assests/nike.png" alt="Nike Logo" width={60} height={22} className="mb-6" />
+          <Image src="/images/nike.png" alt="Nike Logo" width={60} height={22} className="mb-6" />
           <h2 className="text-2xl font-bold text-center">YOUR ACCOUNT <br /> FOR EVERYTHING <br /> NIKE</h2>
         </div>
         <form className="mt-12 space-y-6">

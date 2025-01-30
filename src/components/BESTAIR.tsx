@@ -1,21 +1,24 @@
+
 "use client";
 
 import Image from "next/image";
 import { products, ProductDetail } from "./data/details";
 
 export default function Best() {
-  // Filter the best products (best1, best2, best3)
-  const bestProducts = products.filter((product:any) =>
-    [1, 2, 3].includes(Number(product.id)) // Ensure id comparison works
+  // Ensure `product.id` is always treated as a number
+  const bestProducts: ProductDetail[] = products.filter(
+    (product: ProductDetail) => [1, 2, 3].includes(Number(product.id))
   );
 
   return (
     <section className="p-5 sm:p-10">
       <div className="flex flex-wrap justify-between items-center py-3">
-        <h2 className="font-semibold text-lg pl-[48px] sm:text-xl">Best of Air Max</h2>
+        <h2 className="font-semibold text-lg pl-[48px] sm:text-xl">
+          Best of Air Max
+        </h2>
       </div>
       <div className="flex flex-wrap justify-evenly items-center gap-4 sm:gap-5">
-        {bestProducts.map((product: ProductDetail) => (
+        {bestProducts.map((product) => (
           <div
             key={product.id}
             className="flex flex-col text-sm sm:text-base leading-relaxed max-w-[150px] sm:max-w-[250px] lg:max-w-[300px]"
@@ -42,8 +45,3 @@ export default function Best() {
     </section>
   );
 }
-
-
-
-
-
