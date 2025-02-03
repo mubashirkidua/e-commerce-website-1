@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import { StaticImageData } from "next/image";
 import best1 from "../../../public/images/best1.png";
@@ -79,5 +79,7 @@ export const products: ProductDetail[] = [
     category: "women",
   },
 ];
+
+
 
 
