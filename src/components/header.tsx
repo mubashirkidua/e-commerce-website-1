@@ -19,7 +19,8 @@ export default function header() {
         className="w-[24px] h-[24px]"/>
       
       <div className="flex md:gap-4 sm:gap-3 gap-2">
-        <Link href="#" className="hover:text-gray-800">Find Link Store</Link>
+        <Link href="#" className="hover:text-gray-800">Home</Link>
+        <Link href="#" className="hover:text-gray-800">Find a Store</Link>
         <Link href="#" className="hover:text-gray-800">Help</Link>
         <Link href="#" className="hover:text-gray-800">Join Us</Link>
         <Link href="#" className="hover:text-gray-800">Sign In</Link>
