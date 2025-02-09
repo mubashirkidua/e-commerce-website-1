@@ -1,7 +1,7 @@
   import { StaticImageData } from "next/image";
-  // import p1 from "../../../public/images/p (1).jpg";
-  // import p2 from "../../../public/images/p (2).jpg";
-  // import p3 from "../../../public/images/p (3).jpg";
+  import p1 from "../../../public/images/p (1).jpg";
+  import p2 from "../../../public/images/p (2).jpg";
+  import p3 from "../../../public/images/p (3).jpg";
   // import p4 from "../../../public/images/p (4).jpg";
   // import p5 from "../../../public/images/p (5).jpg";
   import p6 from "../../../public/images/p (6).jpg";
@@ -41,35 +41,35 @@
  }
 
  export const products: ProductDetail[] = [
-  //  {
-  //   id: "P001",
-  //    name: "Nike Air Force 1 Mid",
-  //    description: "Men's Shoe",
-  //    price: "$13.99",
-  //     imageUrl: p1,
-  //    category: "men",
-  //    deal: "Just In",
-  //  },
+    {
+     id: "P001",
+      name: "Nike Air Force 1 Mid",
+      description: "Men's Shoe",
+      price: "$13.99",
+       imageUrl: p1,
+      category: "men",
+      deal: "Just In",
+    },
 
-  //  {
-  //    id: "P002",
-  //    name: "Nike Court Vision Low Next Nature",
-  //    description: "Men's Shoes",
-  //    price: "₹4,995.00",
-  //     imageUrl: p2,
-  //    category: "men",
-  //    deal: "Just In",
-  //  },
+    {
+      id: "P002",
+      name: "Nike Court Vision Low Next Nature",
+      description: "Men's Shoes",
+      price: "₹4,995.00",
+       imageUrl: p2,
+      category: "men",
+      deal: "Just In",
+    },
 
-  //  {
-  //    id: "P003",
-  //    name: "Nike Air Force 1 Platform",
-  //    description: "Women's Shoe",
-  //    price: "$8695.00",
-  //     imageUrl: p3,
-  //    category: "men",
-  //    deal: "15% OFF",
-  //   },
+    {
+      id: "P003",
+      name: "Nike Air Force 1 Platform",
+      description: "Women's Shoe",
+      price: "$8695.00",
+       imageUrl: p3,
+      category: "men",
+      deal: "15% OFF",
+     },
   //  {
   //    id: "P004",
   //    name: "Nike Air Force 1 React",
